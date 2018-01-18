@@ -1,7 +1,7 @@
 {
   "name": "express_router_lecture_angular",
   "version": "1.0.0",
-  "description": "",
+  "description": "One Paragraph of project description goes here. Link to the live version of the app if it's hosted on Heroku.",
   "main": "index.js",
   "scripts": {
     "test": "nodemon server/server.js",
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "angular": "^1.6.6",
+    "angular-material": "^1.1.6",
     "angular-route": "^1.6.6",
     "bcrypt": "^1.0.2",
     "body-parser": "^1.13.3",
@@ -22,5 +23,13 @@
     "passport-local": "^1.0.0",
     "path": "^0.11.14",
     "pg": "^7.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsteffenhagen/Job-Application-Tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tsteffenhagen/Job-Application-Tracker/issues"
+  },
+  "homepage": "https://github.com/tsteffenhagen/Job-Application-Tracker#readme"
 }
